@@ -29,6 +29,7 @@ spring:
 
 server:
   port: ${SERVER_PORT:8080}
+  address: 0.0.0.0
 
 jwt:
   secret: ${JWT_SECRET:myVeryLongSecretKeyForJWTFoodDeliveryApp123456789ChangeInProduction}
