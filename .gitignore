@@ -1,0 +1,40 @@
+target/
+.env
+*.class
+# ===== Eclipse IDE files =====
+.metadata/
+.settings/
+.project
+.classpath
+.factorypath
+bin/
+.apt_generated/
+.apt_generated_test/
+
+# ===== IntelliJ IDEA =====
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ===== VS Code =====
+.vscode/
+
+# ===== Logs =====
+*.log
+logs/
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Spring Boot =====
+HELP.md
+application-local.properties
+application-dev.properties
+
+# ===== Security =====
+*.pem
+*.key
